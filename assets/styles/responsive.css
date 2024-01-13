@@ -44,8 +44,12 @@
         flex-direction: column;
         gap: 0;
     }
+    .features-section-content-left,
+    .features-section-content-right{
+        width: 100%;
+    }
     .features-section-content-left{
-        grid-template-columns: 1fr;
+        gap: 14px;
         padding-bottom: 24px;
     }
     .features-section-content-right h3{
@@ -110,19 +114,23 @@
         flex-direction: column;
         gap: 0;
     }
+    .features-section-content-left,
+    .features-section-content-right{
+        width: 100%;
+    }
     .features-section-content-left{
         padding-bottom: 24px;
     }
     .features-section-content-right h3{
         max-width: 100%;
-        font-size: 45px;
-        line-height: 53px;
+        font-size: 35px;
+        line-height: 43px;
         margin-bottom: 15px;
     }
     .features-section-content-right p{
         margin-bottom: 20px;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 /* Small Devices (Tablets) Ends Here */
@@ -175,25 +183,27 @@
         flex-direction: column;
         gap: 0;
     }
+    .features-section-content-left,
+    .features-section-content-right{
+        width: 100%;
+    }
     .features-section-content-left{
         padding-bottom: 24px;
     }
-    .features-section-content-right{
-        text-align: center;
+    .features-section-content-left img{
+        width: 100%;
     }
     .features-section-content-right h3{
         max-width: 100%;
-        font-size: 45px;
-        line-height: 53px;
+        font-size: 40px;
+        line-height: 48px;
         margin-bottom: 15px;
     }
     .features-section-content-right p{
         margin-bottom: 20px;
-        font-size: 18px;
-        line-height: 26px;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 75%;
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 85%;
     } 
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
@@ -219,12 +229,32 @@
         font-size: 18px;
         line-height: 26px;
     }
+    .features-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .features-section-content{
         gap: 24px;
+        flex-direction: column;
+    }
+    .features-section-content-left,
+    .features-section-content-right{
+        width: 100%;
+    }
+    .features-section-content-left img{
+        width: 100%;
+    }
+    .features-section-content-right{
+        margin-top: 10px;
+    }
+    .features-section-content-right h3{
+        max-width: 100%;
+        font-size: 40px;
+        line-height: 48px;
     }
     .features-section-content-right p{
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 26px;
         margin-bottom: 25px;
     }
 }
