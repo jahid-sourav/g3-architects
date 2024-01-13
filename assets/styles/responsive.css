@@ -103,6 +103,29 @@
         font-size: 14px;
         line-height: 22px;
     }
+    .facts-section{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .facts-section-subheading{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        max-width: 100%;
+    }
+    .facts-cards{
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+    .facts-card h4{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .facts-card p{
+        font-size: 18px;
+        line-height: 26px;
+    }
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -211,6 +234,35 @@
     .feature-badge p{
         font-size: 14px;
         line-height: 22px;
+    }
+    .facts-section{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .facts-section-subheading{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        max-width: 80%;
+    }
+    .facts-cards{
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+    .facts-card h4{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .facts-card p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+/* Extra */
+@media screen and (min-width: 720px) and (max-width: 768px){
+    .facts-cards{
+        justify-content: flex-start;
     }
 }
 /* Small Devices (Tablets) Ends Here */
@@ -333,6 +385,28 @@
     .feature-badge p{
         font-size: 14px;
         line-height: 22px;
+    }
+    .facts-section{
+        padding-bottom: 30px;
+    }
+    .facts-section-subheading{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        max-width: 80%;
+    }
+    .facts-cards{
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+    .facts-card h4{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .facts-card p{
+        font-size: 18px;
+        line-height: 26px;
     } 
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
@@ -422,6 +496,28 @@
     .feature-info-right{
         display: none;
     }
+    .facts-section{
+        padding-bottom: 30px;
+    }
+    .facts-section-subheading{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        max-width: 80%;
+    }
+    .facts-cards{
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+    .facts-card h4{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .facts-card p{
+        font-size: 18px;
+        line-height: 26px;
+    } 
 }
 /* Large Devices (Desktops) Ends Here */
 
