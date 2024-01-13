@@ -63,6 +63,46 @@
         font-size: 14px;
         line-height: 22px;
     }
+    .feature-info{
+        padding-bottom: 30px;
+    }
+    .feature-info-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .feature-info-left,
+    .feature-info-right{
+        width: 100%;
+    }
+    .main-heading{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .feature-info-card p,
+    .default-text{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .feature-info-subheading{
+        margin: 16px 0px;
+    }
+    .feature-info-card{
+        padding: 10px;
+    }
+    .feature-badge{
+        padding: 10px 30px;
+        bottom: -30px;
+        left: 0;
+    }
+    .feature-badge h4{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .feature-badge p{
+        font-size: 14px;
+        line-height: 22px;
+    }
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -131,6 +171,46 @@
         margin-bottom: 20px;
         font-size: 16px;
         line-height: 24px;
+    }
+    .feature-info{
+        padding-bottom: 30px;
+    }
+    .feature-info-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .feature-info-left,
+    .feature-info-right{
+        width: 100%;
+    }
+    .main-heading{
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .feature-info-card p,
+    .default-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .feature-info-subheading{
+        margin: 16px 0px;
+    }
+    .feature-info-card{
+        padding: 10px;
+    }
+    .feature-badge{
+        padding: 10px 30px;
+        bottom: -30px;
+        left: 0;
+    }
+    .feature-badge h4{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .feature-badge p{
+        font-size: 14px;
+        line-height: 22px;
     }
 }
 /* Small Devices (Tablets) Ends Here */
@@ -204,6 +284,55 @@
         font-size: 16px;
         line-height: 24px;
         max-width: 85%;
+    }
+    .feature-info{
+        padding-bottom: 30px;
+    }
+    .feature-info-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .feature-info-left,
+    .feature-info-right{
+        width: 100%;
+    }
+    .feature-info-heading{
+        max-width: 100%;
+    }
+    .main-heading{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .feature-info-card p,
+    .default-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .feature-info-subheading{
+        margin: 16px 0px;
+    }
+    .feature-info-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .feature-info-card{
+        padding: 10px;
+    }
+    .feature-info-right{
+        display: none;
+    }
+    .feature-badge{
+        padding: 10px 30px;
+        bottom: -30px;
+        left: 0;
+    }
+    .feature-badge h4{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .feature-badge p{
+        font-size: 14px;
+        line-height: 22px;
     } 
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
@@ -257,11 +386,47 @@
         line-height: 26px;
         margin-bottom: 25px;
     }
+    .feature-info{
+        padding-bottom: 30px;
+    }
+    .feature-info-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .feature-info-left,
+    .feature-info-right{
+        width: 100%;
+    }
+    .feature-info-heading{
+        max-width: 100%;
+    }
+    .main-heading{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .default-text{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .feature-info-subheading{
+        margin: 16px 0px;
+        max-width: 80%;
+    }
+    .feature-info-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .feature-info-card{
+        padding: 10px;
+    }
+    .feature-info-right{
+        display: none;
+    }
 }
 /* Large Devices (Desktops) Ends Here */
 
 /* Extra Large Devices (Large Desktops) Starts Here */
 @media screen and (min-width: 1200px){
-    
+
 }
 /* Extra Large Devices (Large Desktops) Ends Here */
