@@ -192,8 +192,11 @@ nav .menu li:hover a{
 }
 .feature-info-content{
     display: flex;
-    justify-content: space-between;
+    align-items: end;
     gap: 145px;
+}
+.feature-info-left{
+    width: 50%;
 }
 .feature-info-heading{
     max-width: 468px;
@@ -221,6 +224,7 @@ nav .menu li:hover a{
 }
 .feature-info-right{
     position: relative;
+    width: 50%;
 }
 .feature-badge{
     position: absolute;
@@ -325,3 +329,9 @@ footer{
     font-weight: 400;
 }
 /* Footer Ends Here */
+
+
+/* 
+Live Link - https://jahid-g3-architects.netlify.app
+GitHub Repo -https://github.com/jahid-sourav/g3-architects.git
+*/
