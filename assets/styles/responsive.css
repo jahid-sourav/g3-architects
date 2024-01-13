@@ -126,6 +126,32 @@
         font-size: 18px;
         line-height: 26px;
     }
+    .sponsors-section{
+        padding-bottom: 30px;
+    }
+    .sponsors-section .main-heading{
+        text-align: left;
+    }
+    .sponsors-section-subheading{
+        margin-bottom: 25px;
+        max-width: 100%;
+        text-align: left;
+    }
+    .sponsors-section-logos{
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+    .sponsors-section-logos img{
+        width: 100px;
+    }
+    .footer{
+        padding: 10px 0px;
+    }
+    .footer p{
+        font-size: 14px;
+        line-height: 22px;
+    } 
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -258,6 +284,34 @@
         font-size: 18px;
         line-height: 26px;
     }
+    .sponsors-section{
+        padding-bottom: 30px;
+    }
+    .sponsors-section .main-heading{
+        text-align: left;
+    }
+    .sponsors-section-subheading{
+        margin-bottom: 25px;
+        max-width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+    .sponsors-section-logos{
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+    .sponsors-section-logos img{
+        width: 100px;
+    }
+    .footer{
+        padding: 20px 0px;
+    }
+    .footer p{
+        font-size: 16px;
+        line-height: 22px;
+    } 
 }
 /* Extra */
 @media screen and (min-width: 720px) and (max-width: 768px){
@@ -407,7 +461,35 @@
     .facts-card p{
         font-size: 18px;
         line-height: 26px;
-    } 
+    }
+    .sponsors-section{
+        padding-bottom: 30px;
+    }
+    .sponsors-section .main-heading{
+        text-align: left;
+    }
+    .sponsors-section-subheading{
+        margin-bottom: 25px;
+        max-width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+    .sponsors-section-logos{
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+    .sponsors-section-logos img{
+        width: 100px;
+    }
+    .footer{
+        padding: 20px 0px;
+    }
+    .footer p{
+        font-size: 16px;
+        line-height: 22px;
+    }   
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
@@ -517,7 +599,35 @@
     .facts-card p{
         font-size: 18px;
         line-height: 26px;
-    } 
+    }
+    .sponsors-section{
+        padding-bottom: 30px;
+    }
+    .sponsors-section .main-heading{
+        text-align: left;
+    }
+    .sponsors-section-subheading{
+        margin-bottom: 25px;
+        max-width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+    .sponsors-section-logos{
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+    .sponsors-section-logos img{
+        width: 150px;
+    }
+    .footer{
+        padding: 20px 0px;
+    }
+    .footer p{
+        font-size: 18px;
+        line-height: 22px;
+    }  
 }
 /* Large Devices (Desktops) Ends Here */
 
